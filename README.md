@@ -1,0 +1,2 @@
+# The-AstraDNS
+astracat.ru
