@@ -1,0 +1,13 @@
+Statistics: 87.121.221.179 Порт 53 Ядро Bind9+Мод
+
+  Queries sent:         15534
+  Queries completed:    15526 (99.95%)
+  Queries lost:         8 (0.05%)
+
+  Response codes:       NOERROR 15381 (99.07%), NXDOMAIN 145 (0.93%)
+  Average packet size:  request 28, response 66
+  Run time (s):         30.308827
+  Queries per second:   512.260009
+
+  Average Latency (s):  0.190022 (min 0.160047, max 2.048316)
+  Latency StdDev (s):   0.056533
