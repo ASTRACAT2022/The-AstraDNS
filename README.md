@@ -69,4 +69,4 @@ graph TD
 
 - Официальный сайт: [astracat.ru](https://astracat.ru)
 - Telegram-канал: [@astracatui](https://t.me/astracatui)
-- Пример конфигурации SNI-прокси: [sni.yaml](./sni-proxy/sni.yaml)
+
