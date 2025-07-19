@@ -11,3 +11,10 @@ Statistics: 87.121.221.179 Порт 53 Ядро Bind9+Мод
 
   Average Latency (s):  0.190022 (min 0.160047, max 2.048316)
   Latency StdDev (s):   0.056533
+
+
+ECDSA P-256	ECDSA P-384	Ed25519
+Valid signature	PASS	PASS	PASS
+Invalid signature	PASS	PASS	PASS
+Expired signature	PASS	PASS	PASS
+Missing signature	PASS	PASS	PASS
