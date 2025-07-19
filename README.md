@@ -57,24 +57,7 @@ graph TD
 
 ---
 
-## Структура репозитория
 
-```plaintext
-astradns-core/
-├── bind9/             # Конфигурация Bind9
-│   ├── named.conf
-│   └── zones/
-├── dnsdist/           # Конфигурация DNSdist
-│   ├── dnsdist.conf
-│   └── acl.lua
-├── prometheus/        # Конфигурация Prometheus
-│   └── prometheus.yml
-├── grafana/           # Дашборды Grafana
-│   ├── dns-stats.json
-│   └── sni-proxy.json
-└── sni-proxy/         # Конфигурация SNI-прокси
-    └── sni.yaml
-```
 
 ---
 
