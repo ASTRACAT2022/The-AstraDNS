@@ -1,0 +1,26 @@
+# v1
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets: []
+
+rule_files: []
+
+scrape_configs:
+  # Prometheus itself
+  - job_name: "prometheus"
+    static_configs:
+      - targets: ["localhost:9090"]
+
+  # Dnsdist metrics 
+  - job_name: "dnsdist"
+    static_configs:
+      - targets: ["127.0.0.1:8083"]
+    metrics_path: /metrics
+    basic_auth:
+      username: admin
+      password: astracat
