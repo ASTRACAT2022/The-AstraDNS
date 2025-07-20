@@ -1,0 +1,22 @@
+
+; <<>> DiG 9.10.6 <<>> astracat.ru NS
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49050
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 2
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;astracat.ru.			IN	NS
+
+;; ANSWER SECTION:
+astracat.ru.		86400	IN	NS	ns1.astracat.ru.
+
+;; ADDITIONAL SECTION:
+ns1.astracat.ru.	1	IN	A	176.125.254.77
+
+;; Query time: 119 msec
+;; SERVER: 10.10.10.10#53(10.10.10.10)
+;; WHEN: Sun Jul 20 23:21:26 MSK 2025
+;; MSG SIZE  rcvd: 74
