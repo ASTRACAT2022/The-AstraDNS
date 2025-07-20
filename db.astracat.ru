@@ -16,7 +16,7 @@ astracat.ru.        1      IN  A   216.198.79.193 ;
 ; ОСН 
 ns1.astracat.ru.    1      IN  A   176.125.254.77
 
-; Остальные ваши A-записи
+; 
 brozeproxy.astracat.ru. 60 IN  A   87.121.221.179
 dns.astracat.ru.    60     IN  A   87.121.221.179
 fn.astracat.ru.     1      IN  A   176.125.254.77
