@@ -1,0 +1,6 @@
+zone "astracat.ru" {
+    type master;
+    file "/etc/bind/db.astracat.ru";
+    allow-update { none; };
+    allow-transfer { none; };
+};
