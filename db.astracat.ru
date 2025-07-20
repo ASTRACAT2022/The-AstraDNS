@@ -8,7 +8,7 @@ $TTL 3600 ; Default TTL for records without a specific TTL
 
 ;; NS Records 
 astracat.ru.        86400  IN  NS  ns1.astracat.ru.
-; Если у вас будет второй NS-сервер, добавьте его здесь:
+;
 ; astracat.ru.        86400  IN  NS  ns2.astracat.ru.
 
 ;; A Records
