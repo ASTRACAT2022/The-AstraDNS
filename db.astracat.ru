@@ -1,6 +1,6 @@
 $TTL 3600 ; Default TTL for records without a specific TTL
 @ IN SOA ns1.astracat.ru. admin.astracat.ru. (
-                                 2025072101 ; Serial (YYYYMMDDNN - Date + Counter) - **ОБНОВЛЯЙТЕ ПРИ ИЗМЕНЕНИЯХ!**
+                                 2025072101 ; Serial (YYYYMMDDNN - Date + Counter) 
                                  7200       ; Refresh (2 hours)
                                  3600       ; Retry (1 hour)
                                  1209600    ; Expire (2 weeks)
