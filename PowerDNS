@@ -1,0 +1,28 @@
+# Слушаем на всех интерфейсах
+local-address=127.0.0.1
+local-port=5311
+
+# Доступ с указанных подсетей
+allow-from=0.0.0.0/0
+
+
+# Кэш
+max-cache-ttl=86400
+max-negative-ttl=10
+
+# Процесс и безопасность
+setgid=pdns
+setuid=pdns
+
+# Web-интерфейс для контроля
+webserver=yes
+webserver-address=0.0.0.0 # Слушать на всех интерфейсах (для мониторинга)
+webserver-port=8082
+api-key=your_pdns_recursor_api_key_here
+
+
+# ECS (EDNS Client Subnet)
+ecs-ipv4-bits=32
+use-incoming-edns-subnet=yes
+dnssec=validate
+
