@@ -1,6 +1,6 @@
 # AstraDNS Core
 
-[![Telegram](https://img.shields.io/badge/Telegram-@astracatui-0088CC?logo=telegram)](https://t.me/astracatui)  
+[![Telegram](https://img.shields.io/badge/Telegram-@astracatui-0088CC?logo=telegram)](https://t.me/astracatuo)  
 [![Website](https://img.shields.io/badge/Website-astracat.ru-8A2BE2)](https://astracat.ru)
 
 **Высокопроизводительная DNS-инфраструктура с обходом блокировок через SNI-прокси.**
